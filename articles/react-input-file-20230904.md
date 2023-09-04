@@ -3,7 +3,7 @@ title: "Reactで<input type=\"file\">を使ってみた"
 emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [react]
-published: false
+published: true
 ---
 
 Reactで`<input type="file">`を使う機会があり、onChangeイベントのコールバックを受ける際に手こずったので調べた内容をまとめました。
@@ -178,11 +178,11 @@ export const App: React.FC = () => {
 正直なところ、input要素を非表示にするのは無理やりな感じがしています。他に良い方法をご存じの方がいましたらコメントいただけたら幸いです。
 
 ## おわりに
-以上、React + <input type="file">の使用方法を実装例とともに説明しました。
+以上、React + `<input type="file">`の使用方法を実装例とともに説明しました。
 
 本記事のソースコードは以下で公開しているので参考にしてみてください。https://github.com/kengo519/react-input-file
 
-コードをクローンした後はnpm installを実行してください。
+コードをクローンした後は`npm install`を実行してください。
 
 また、GitHubでは静的なサイトホスティングサービスGitHub Pagesでウェブサイトを公開することができます。今回の紹介したコードのWebページをGitHub Pagesを使って公開したので、以下で動作確認することができます。
 https://kengo519.github.io/react-input-file/
